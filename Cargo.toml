@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "ps",
+    "crates/ps-abstract",
+    "crates/ps-acoustic",
+    "crates/ps-common",
+    "crates/ps-electro",
+    "crates/ps-fluid",
+    "crates/ps-fuse",
+    "crates/ps-mechanical",
+    "crates/ps-optical",
+    "crates/ps-radiative",
+    "crates/ps-spacial",
+    "crates/ps-tactile",
+    "crates/ps-temporal",
+    "crates/ps-thermal",
+]
