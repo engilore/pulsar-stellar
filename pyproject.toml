@@ -3,9 +3,10 @@ requires = ["maturin>=0.13"]
 build-backend = "maturin"
 
 [project]
-name = "pulsar_stellar"
+name = "pulsar-stellar"
 version = "0.1.0"
 description = "A modular library powered by Rust and Python, tailored for sensory data integration, advanced comprehension, and data-driven optimization."
+readme = "README.md"
 authors = ["Lalo Blanc <lalo@engilore.com>"]
 license = "Apache-2.0"
 keywords = ["rust", "python-bindings", "sensory-data", "data-comprehension", "data-optimization", "insights"]
@@ -19,4 +20,7 @@ classifiers = [
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
 ]
+homepage = "https://github.com/engilore/pulsar-stellar"
+repository = "https://github.com/engilore/pulsar-stellar"
 dependencies = []
+requires-python = ">=3.10"

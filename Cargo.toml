@@ -1,12 +1,18 @@
-[package]
-name = "pulsar_stellar"
-version = "0.1.0"
-edition = "2021"
-
-[lib]
-crate-type = ["cdylib"]
-
-[dependencies]
-pyo3 = { version = "0.18.0", features = ["extension-module"] }
-nalgebra = "0.31"  # Linear algebra for robotics
-serde = { version = "1.0", features = ["derive"] }
+[workspace]
+resolver = "2"
+members = [
+    "ps",
+    "crates/ps-abstract",
+    "crates/ps-acoustic",
+    "crates/ps-common",
+    "crates/ps-electro",
+    "crates/ps-fluid",
+    "crates/ps-fuse",
+    "crates/ps-mechanical",
+    "crates/ps-optical",
+    "crates/ps-radiative",
+    "crates/ps-spacial",
+    "crates/ps-tactile",
+    "crates/ps-temporal",
+    "crates/ps-thermal",
+]
