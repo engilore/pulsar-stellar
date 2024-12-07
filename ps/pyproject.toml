@@ -2,6 +2,10 @@
 requires = ["maturin>=0.13"]
 build-backend = "maturin"
 
+[tool.maturin]
+bindings = "pyo3"
+module-name = "pulsar-stellar"
+
 [project]
 name = "pulsar-stellar"
 version = "0.1.0"
