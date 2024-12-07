@@ -15,6 +15,7 @@ members = [
     "crates/ps-tactile",
     "crates/ps-temporal",
     "crates/ps-thermal",
+    "crates/ps-vision",
 ]
 
 
