@@ -16,3 +16,12 @@ members = [
     "crates/ps-temporal",
     "crates/ps-thermal",
 ]
+
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Lalo Blanc <lalo@engilore.com>"]
+edition = "2021"
+homepage = "https://www.engilore.com/"
+license = "Apache-2.0"
+repository = "https://github.com/engilore/pulsar-stellar"
