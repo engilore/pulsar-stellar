@@ -26,3 +26,8 @@ edition = "2021"
 homepage = "https://www.engilore.com/"
 license = "Apache-2.0"
 repository = "https://github.com/engilore/pulsar-stellar"
+
+
+[workspace.dependencies]
+tokio = "1.42.0"
+serde = { version = "1.0.215", features = ["derive"] }
