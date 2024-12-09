@@ -6,6 +6,7 @@ members = [
     "crates/ps-acoustic",
     "crates/ps-common",
     "crates/ps-contextual",
+    "crates/ps-core",
     "crates/ps-electro",
     "crates/ps-fluid",
     "crates/ps-fuse",
@@ -32,5 +33,6 @@ repository = "https://github.com/engilore/pulsar-stellar"
 
 
 [workspace.dependencies]
-tokio = "1.42.0"
 serde = { version = "1.0.215", features = ["derive"] }
+tokio = { version = "1.42", features = ["full"] }
+ndarray = "0.15.4"
