@@ -1,5 +1,5 @@
-pub mod math;
 pub mod filters;
+pub mod math;
 
-pub use math::*;
 pub use filters::*;
+pub use math::*;

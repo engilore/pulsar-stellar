@@ -1,5 +1,5 @@
-pub mod image;
 pub mod edge;
+pub mod image;
 
-pub use image::*;
 pub use edge::*;
+pub use image::*;
