@@ -39,11 +39,6 @@ To begin using Pulsar-Stellar, follow these steps:
    ```bash
    cargo build
    ```
-4. Install the Python bindings:
-   ```bash
-   pip install .
-   ```
-5. Explore examples in the `examples` directory to understand the library's features.
 
 ## Contributing
 
